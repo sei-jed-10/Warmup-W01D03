@@ -12,16 +12,10 @@
 
 ---
 
-## Getting Started
-
-1. Navigate into the `student_examples` folder for today.
-
-2. Create a file called `morning_lab_solutions.js` .
-
 
 
 ## Directions
-Write loops, `if`, or `if, else` statements to complete the following questions. Some of the problems may require you to use a loop inside the conditional. Refer back to your class notes from today if you need help.
+Write  `if`, or `if, else` statements to complete the following questions. Some of the problems may require you to use a  conditional. Refer back to your class notes from today if you need help.
 
 ## Conceptual Questions
 
