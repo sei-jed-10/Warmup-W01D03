@@ -4,7 +4,7 @@
 
 #### Learning Objectives
 
-- Practice using conditionals and / or loops to solve problems
+- Practice using conditionals.
 
 #### Prerequisites
 
