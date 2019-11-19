@@ -181,7 +181,7 @@ console.log("Drive away!")
 // Convert it to celsius and output "NN°F is NN°C."
 
 var temp = 33
-var fahrenheitTemp = ( celsiusTemp * 1.8 )+ 32
+var fahrenheitTemp = ( temp * 1.8 )+ 32
 var celsiusTemp = (fahrenheitTemp - 32 ) / 1.8
 console.log(temp + "°C is "+ fahrenheitTemp + "°F")
 console.log(fahrenheitTemp + "°F is " + temp + "°C")
