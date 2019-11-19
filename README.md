@@ -60,6 +60,7 @@ const e = 16
 - Raise `e` to the power of `d`
 - Make a digital die 0 generate a random number between 1 - 6 
 
+```
 //Round a down
 const a = Math.floor(42.78);
 
@@ -81,6 +82,7 @@ console.log(Math.pow(e,d));
 
 //Make a digital die 0 generate a random number between 1 - 6
 console.log(Math.floor(Math.random()*6)+1);
+```
 
 ## Strings Activity 1
 
@@ -92,21 +94,23 @@ console.log(Math.floor(Math.random()*6)+1);
 1. On the next line, change the value of `secondVariable` to a string.
 1. What is the value of `firstVariable`? It has the last value assigned to it (a number).
 
+```
 var firstVariable="Hello World";
 firstVariable=7;
 var secondVariable=firstVariable;
 secondVariable="Hello"
 console.log(firstVariable);
+```
 
 ### Strings - Combine it
 1. Create a variable called `yourName` and set it equal to your name as a string.
   - Write an expression that takes the string "Hello, my name is " and the variable `yourName` so that it prints a new string with them concatenated
 
 >ex: `Hello, my name is Jean Valjean`
-
+```
 var Sarah="Sarah";
 console.log("Hello, my name is "+Sarah);
-
+```
 ## Booleans Activity
 - Using the provided variable definitions, replace the blanks with a mathematical or boolean operator **that evaluates the expression to true**.
 
@@ -120,6 +124,7 @@ console.log("Hello, my name is "+Sarah);
   const e = 'Jelly Bean';
 ```
 
+```
 1.  a <b;
 1.  c < d;
 1.  'Peanut' == 'Peanut';
@@ -128,7 +133,7 @@ console.log("Hello, my name is "+Sarah);
 1.  e =='Jelly Bean';
 1.  48 == '48';
 1. 'e' !=='Eh'
-
+```
 ## The Age Calculator
 
 Forgot how old someone is? Calculate it!
@@ -138,6 +143,7 @@ Forgot how old someone is? Calculate it!
 - Calculate their 2 possible ages based on the stored values.
 - Output them to the screen like so: "They are either NN or NN", substituting the values.
 
+```
 // The Age Calculator
 // Forgot how old someone is? Calculate it!
 
@@ -150,9 +156,12 @@ var ageGuess1=currentYear-birthYear;
 var ageGuess2=ageGuess1-1;
 // Output them to the screen like so: "They are either NN or NN", substituting the values.
 console.log("They are either "+ageGuess1+" or "+ageGuess2);
+```
 
 ## The World Translator
 // Write an if statement that writes Hello World in different languages (i.e. if the language is English, print `"Hello World"`, if the language is Arabic write something `"مرحبا بالعالم"`, if the language is French write something romantic)
+
+```
 var language="English";
 
 if (language=="English"){
@@ -164,6 +173,7 @@ else if (language=="Arabic"){
 else if (language=="French"){
   console.log("Bonjour");
 }
+```
 
  ## Driving Age
 // - Store the user age
@@ -171,7 +181,7 @@ else if (language=="French"){
 // - If the age is equal to or over 18, print "Drive away!"
 // - Bonus: If the user can't drive yet, tell them how many years they will have to wait. E.g. "Sorry, you have 4 years to wait until you can drive"
 
- ## Solution
+```
 var age=17;
 if (age<18){
   var yearsLeft=18-age;
@@ -185,6 +195,7 @@ if (age<18){
 else{
   consle.log("Drive Away!");
 }
+```
 
 ## The Temperature Converter
 // It's hot out! Let's make a converter based on the steps here.
@@ -192,16 +203,21 @@ else{
 // Convert it to fahrenheit and output "NN°C is NN°F".
 // Now store a fahrenheit temperature into a variable.
 // Convert it to celsius and output "NN°F is NN°C."
+
+```
 var cTempreture=30;
 var fTempreture=cTempreture*(9/5)+32;
 console.log(fTempreture+"°F is "+cTempreture+"°C." )
+```
 
 ## The Fortune Teller
 // Why pay a fortune teller when you can just program your fortune yourself?
 
 // Store the following into variables: number of children, partner's name, geographic location, job title. Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+```
 var numberOfChildren=4;
 var partnerName="an Unlucky Human";
 var geographicLocation="the US";
 var jobTitle="CEO of a Tech Company";
 console.log("You will be a "+ jobTitle+" in "+ geographicLocation+", and married to "+partnerName+" with "+ numberOfChildren+" kids.");
+```
