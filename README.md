@@ -162,7 +162,7 @@ else if (language=="Arabic"){
   console.log("مرحبًا بالعالم");
 }
 else if (language=="French"){
-  console.log("J'aime ton sourire");
+  console.log("Bonjour");
 }
 
  ## Driving Age
